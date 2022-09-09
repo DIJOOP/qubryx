@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+}
+
+.main_Container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: burlywood;
+  width: 80%;
+  height: fit-content;
+  position: fixed;
+  left: 50%;
+  top: 32%;
+  transform: translate(-50%, 0);
+}
+
+.dropzone_container {
+
+  display: flex;
+  
+  width: 100%;
+  justify-content: center;
+
+
+}
+
+.dropzone {
+  text-align: center;
+  padding: 20px;
+  border: 3px rgb(191, 191, 245) dashed;
+  width: 80%;
+
+}
+
+.btn {
+  border: none;
+  text-align: center;
+  background-color: rgb(218, 216, 216);
+  height: 50px;
+  border-radius: 12px;
+  color: black;
+  font-weight: bold;
+  transition-duration: 0.6s;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.file-list {
+  /* border: 3px dotted black; */
+  display: flex !important;
+  flex-wrap: wrap;
+  width: auto;
+  padding: 10px 20px;
+  margin: 20px 30px;
+  /* border: 3px dotted black; */
+}
+
+.file-list img {
+  height: 100%;
+  width: 100px;
+  padding-right: 10px;
+  object-fit: cover;
+}
+
+
+.template_box {
+
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: center;
+  cursor: pointer;
+  background-color: bisque;
+
+}
+
+.view_data{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.view_data>a{
+  background-color: blue;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: 600;
+  color: aqua;
+}

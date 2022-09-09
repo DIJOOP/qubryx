@@ -1,0 +1,69 @@
+
+
+.login_box {
+    position: absolute;
+	width: 37%;
+	background-color: rgb(177, 213, 248);
+    padding: 20px 25px 10px 25px;
+    min-width: 276px;
+    top:20%;
+    left:30%;
+    border-radius: 10px;
+  
+}
+
+.logo_box {
+	display: flex;
+	flex-direction: column;
+	height: 25%;
+	justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo_box > img {
+	width: 130px;
+}
+
+.logo_box > div {
+	display: flex;
+}
+
+.loginform_box>form{
+display: flex;
+flex-direction: column;
+/* gap: 28px; */
+margin-top: 30px;
+}
+
+.loginform_box>form>input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 3px 20px -4px lightblue;
+    outline: none;
+}
+
+.loginform_box>form>div{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline
+}
+
+.loginform_box>form>div>button{
+   width: 40%;
+   padding: 8px 0px 8px 0px;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+   margin-top: 20px;
+   box-shadow: 1px 3px 20px -4px lightblue;
+   background-color: rgb(66, 100, 235);
+   color: #fff;
+}
+
+.loginform_box>form>div>button:hover{
+    transform: scale(1.1);
+}
+
+

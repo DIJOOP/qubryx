@@ -1,0 +1,47 @@
+.master_containergrid{
+    display: flex;
+   
+    justify-content: center;
+    padding: 10px;
+}
+/* .grid_container{
+ padding: 10px;
+   
+} */
+
+.title_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.title_box>button
+{
+    background-color: green;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    color: aqua;
+    cursor: pointer;
+    text-decoration: none;
+}
+.title_box>button:hover{
+    background-color: red;
+    transform: scale(1.03);
+}
+.Loader{
+    cursor: progress;
+    
+}
+.view_btn{
+    background-color:cornflowerblue;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.view_btn:hover{
+    background-color: blueviolet;
+}

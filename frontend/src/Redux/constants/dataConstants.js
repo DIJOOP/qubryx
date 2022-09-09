@@ -1,0 +1,14 @@
+export const   NEWFILE_REQUEST = "NEWFILE_REQUEST";
+export const   NEWFILE_SUCCESS = "NEWFILE_SUCCESS";
+export const   NEWFILE_FAIL = "NEWFILE_FAIL";
+export const   NEWFILE_RESET = "NEWFILE_RESET";
+
+export const  ALLFILE_REQUEST = "ALLFILE_REQUEST";
+export const  ALLFILE_SUCCESS = "ALLFILE_SUCCESS";
+export const  ALLFILE_FAIL = "ALLFILE_FAIL";
+
+
+export const   MYFILE_REQUEST = "MYFILE_REQUEST";
+export const   MYFILE_SUCCESS = "MYFILE_SUCCESS";
+export const   MYFILE_FAIL = "MYFILE_FAIL";
+

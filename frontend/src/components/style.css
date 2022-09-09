@@ -1,0 +1,55 @@
+.hearde_box {
+	display: flex;
+	justify-content: space-between;
+	background-color: blue;
+	padding: 10px 10px 10px 10px;
+	align-items: center;
+	color: white;
+	font-style: italic;
+}
+
+.logout_btn,
+.common_btn {
+	background-color: red;
+	border: none;
+	width: fit-content;
+	height: fit-content;
+	padding: 7px;
+	font-size: medium;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.logout_btn:hover {
+	background-color: green;
+}
+
+.common_btn {
+	background-color: rgb(191, 153, 226);
+}
+.common_btn:hover {
+	background-color: darkcyan;
+}
+
+.home_container{
+	
+	height: auto;
+	
+}
+
+.Link_container{
+	background-color: rgb(231, 181, 105);
+	padding: 10px;
+}
+.inactive{
+	text-decoration: none;
+	padding: 5px;
+	background-color: rgb(210, 210, 245);
+	border-radius: 2px ;
+	margin-inline: 10px;
+	
+}
+
+.active{
+	background-color: blue;
+}
